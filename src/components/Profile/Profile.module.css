@@ -1,0 +1,60 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.imgprofile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(49, 48, 48);
+    margin-top: 10px ;
+}
+.userName {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.userdiscribe {
+    font-size: 30px;
+    color:#828080;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(176, 175, 175);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-top: 2px solid #696666;
+    border-right: 2px solid #696666;
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.item:last-child {
+    border-right: none;
+}
+.label {
+    font-size: 25px;
+}
+.value {
+    font-size: 25px;
+    font-weight: 600;
+}

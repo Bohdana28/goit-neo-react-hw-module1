@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+.container thead {
+    background-color: #2b2828;
+    color: #fff;
+}
+
+.container th,
+.container td {
+    border: 1px solid #201f1f;
+    padding: 8px;
+
+    text-align: center;
+}
+
+.container tr {
+    font-size: 20px;
+}
+
+.container tr:nth-child(even) {
+    background-color: #d4cbcb;
+}
